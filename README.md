@@ -92,22 +92,14 @@ exe와 **같은 폴더**의 `appsettings.json` 하나만 수정하면 됩니다.
 # → releases-local\VArchiveHelper-v0.1.3.zip + (선택) main 배포
 ```
 
-### GitHub에 새 버전 배포
-
-1. `VArchiveHelper/` 수정, [CHANGELOG.md](CHANGELOG.md) 갱신
-2. `VArchiveHelper.csproj` 의 `<Version>` 올리기
-3. `source` 커밋·푸시
-4. `git tag v0.1.4` → `git push origin v0.1.4`
-5. Actions가 **해당 태그 Release**에 `VArchiveHelper-win.zip` 업로드
-6. `.\scripts\build-release.ps1` 로 `main` 설치본 반영
-
 ### Git 태그 (변화의 흐름)
-
-- `v0.1.1` — full (미리보기 포함, 과거)
-- `v0.1.1-lite` — lite
-- `v0.1.2` — 단축키·UX 개선
+- 이전 버전은 더 이상 배포하지 않습니다.
 - `v0.1.3` — **현재 최신** (테마·매뉴얼·UI)
 
 ---
 
 **변경 이력:** [CHANGELOG.md](CHANGELOG.md)
+
+### 제작 및 재배포에 관련하여
+
+본 프로그램은 v-archive 가 제대로 작동하지 않는 유저를 위해 제작되었으며 어떠한 형태로든 유저의 편의를 위한 가공 및 역공학 등이 가능합니다.
