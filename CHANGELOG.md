@@ -1,140 +1,148 @@
-﻿# Changelog
+# Changelog
 
-?뺤떇? [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)瑜?李멸퀬?⑸땲??  
-踰꾩쟾蹂?**exe(zip)** ??[Releases](https://github.com/jinthek123/varhelper/releases).  
-**`main`** = Code Download ZIP(?ㅼ튂蹂몃쭔) 쨌 **`source`** = ?뚯뒪 쨌 `build-release.ps1` ??`main` 諛고룷.
+형식은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를 참고합니다.  
+버전별 **exe(zip)** — [Releases](https://github.com/jinthek123/varhelper/releases).  
+**`main`** = Code Download ZIP(설치본만) · **`source`** = 소스 · `build-release.ps1` → `main` 배포.
 
-## [0.1.3] ??2026-06-08
+## [0.1.3] — 2026-06-08
 
-**?쒖떆 ?대쫫:** vArchiveHelper 0.1.3  
-**Git ?쒓렇:** `v0.1.3`  
-**湲곕컲:** 0.1.2
+**표시 이름:** vArchiveHelper 0.1.3  
+**Git 태그:** `v0.1.3`  
+**기반:** 0.1.2
 
 ### Added
 
-- **???꾩씠肄?* ??exe쨌?ㅼ젙 李승룸ℓ?댁뼹쨌寃쎈줈 ?ㅼ젙 李?- **?쇱씠???ㅽ겕 ?뚮쭏** ??肄붾엫 ?≪꽱?? 8px ?쇱슫??UI
-- **?ъ슜 留ㅻ돱??* ?앹뾽
-- ?ㅼ젙 李?**?ㅽ겕濡?媛??* ???좊줈 媛濡쑣룹꽭濡쑣룸え?덊꽣 媛믪씠 諛붾뚯? ?딆쓬
+- **앱 아이콘** — exe·설정 창·매뉴얼·경로 설정 창
+- **라이트/다크 테마** — 코랄 액센트, 8px 라운드 UI
+- **사용 매뉴얼** 팝업
+- 설정 창 **스크롤 가드** — 휠로 가로·세로·모니터 값이 바뀌지 않음
 
 ### Changed
 
-- **`main` 猷⑦듃 exe쨌dll** 0.1.3?쇰줈 媛깆떊 (?꾩씠肄샕톃I쨌罹≪쿂 ?깅뒫 媛쒖꽑 ?ы븿)
-- **`appsettings.json` ?⑥씪??* ??placeholder留??ы븿 (`main` Download ZIP)
-- ?ㅼ젙 UI ???뱀뀡 ?쒖꽌쨌?ㅽ겕濡ㅒ룻봽由ъ뀑 2以???媛쒖꽑
-- **罹≪쿂 Bitmap ?댁쨷 蹂듭젣 ?쒓굅** ??硫붾え由?룹벙泥??쒓컙 ?덉빟
+- **`main` 루트 exe·dll** 0.1.3으로 갱신 (아이콘·UI·캡처 성능 개선 포함)
+- **`appsettings.json` 단일화** — placeholder만 포함 (`main` Download ZIP)
+- 설정 UI — 섹션 순서·스크롤·프리셋 2줄 등 개선
+- **캡처 Bitmap 이중 복제 제거** — 메모리·캡처 시간 절약
 
 ### Fixed
 
-- ?ъ슜 留ㅻ돱??**?リ린** 踰꾪듉 ?뺤긽 ?숈옉
-- ?ㅼ젙 李?**媛濡??ㅽ겕濡?* ?쒓굅 (?몃줈留?
-- **紐⑤땲??DPI ?꾪솚** ??李쎌씠 ?섎━吏 ?딅룄濡??ш린쨌?꾩튂 蹂댁젙
-- ?곷떒 **?곹깭 臾멸뎄** ???뚯벙泥섑븳 ?ㅳ띿뿉??以꾨컮轅?
-### Troubleshooting ??2026-06-08 07:06
+- 사용 매뉴얼 **닫기** 버튼 정상 동작
+- 설정 창 **가로 스크롤** 제거 (세로만)
+- **모니터/DPI 전환** 시 창이 잘리지 않도록 크기·위치 보정
+- 상단 **상태 문구** — 「캡처한 뒤」에서 줄바꿈
 
-?ㅼ젙쨌留ㅻ돱???덉씠?꾩썐??QHD/FHD쨌DPI ?꾪솚 湲곗??쇰줈 ?ш?利씲룸낫?뺥뻽?듬땲??
+### Troubleshooting — 2026-06-08 07:06
 
-**?ㅼ젙 李?*
+설정·매뉴얼 레이아웃을 QHD/FHD·DPI 전환 기준으로 재검증·보정했습니다.
 
-- **?뚰몴?쒌???鍮?怨듦컙** ???곷떒 ?뱀뀡??鍮꾩뼱 蹂댁씠??臾몄젣 ?섏젙
-- **媛濡??ㅽ겕濡?* ???몃줈 ?ㅽ겕濡ㅻ쭔 ?④린怨?媛濡??ㅽ겕濡??쒓굅
-- **紐⑤땲??DPI ?꾪솚** ??李??ш린쨌?꾩튂瑜??묒뾽 ?곸뿭??留욊쾶 ?ъ“??(?믪씠 520px)
-- **?곹깭 臾멸뎄 以꾨컮轅?* ???뚯벙泥섑븳 ?ㅳ띿뿉???먯뿰?ㅻ읇寃?以꾨컮轅?
-**?ъ슜 留ㅻ돱??*
+**설정 창**
 
-- **QHD?묯HD 媛濡??ㅽ겕濡?* ??紐⑤땲???대룞쨌?몃줈 ?ㅽ겕濡ㅻ컮 ?앹꽦 ??蹂몃Ц ?덈퉬 ?ш퀎??- **?쒕ぉ ?뚯떎** ???똶ArchiveHelper ?ъ슜 ?덈궡?띻? FHD濡???만 ???щ씪吏??臾몄젣 ?섏젙
-- **移대뱶 ?щ갚** ??李승룹뭅???덉そ ?щ갚 異뺤냼
-- **蹂몃Ц 媛濡?600px** ??FHD?먯꽌??以꾨컮轅덈릺?꾨줉 ?쒖떆 ??議곗젙
+- **「표시」 위 빈 공간** — 상단 섹션이 비어 보이던 문제 수정
+- **가로 스크롤** — 세로 스크롤만 남기고 가로 스크롤 제거
+- **모니터/DPI 전환** — 창 크기·위치를 작업 영역에 맞게 재조정 (높이 520px)
+- **상태 문구 줄바꿈** — 「캡처한 뒤」에서 자연스럽게 줄바꿈
+
+**사용 매뉴얼**
+
+- **QHD→FHD 가로 스크롤** — 모니터 이동·세로 스크롤바 생성 시 본문 너비 재계산
+- **제목 소실** — 「vArchiveHelper 사용 안내」가 FHD로 옮길 때 사라지던 문제 수정
+- **카드 여백** — 창·카드 안쪽 여백 축소
+- **본문 가로 600px** — FHD에서도 줄바꿈되도록 표시 폭 조정
 
 ---
 
-## [0.1.2] ??2026-06-04
+## [0.1.2] — 2026-06-04
 
-**?쒖떆 ?대쫫:** vArchiveHelper 0.1.2  
-**Git ?쒓렇:** `v0.1.2`  
-**湲곕컲:** 0.1.1 lite
+**표시 이름:** vArchiveHelper 0.1.2  
+**Git 태그:** `v0.1.2`  
+**기반:** 0.1.1 lite
 
 ### Changed
 
-- **猷⑦듃??exe쨌dll 吏곸젒 諛곗튂** ??Code Download ZIP ?뺤텞 **1??* (以묒꺽 zip ?쒓굅)
-- **`dist/`쨌猷⑦듃 `VArchiveHelper-win.zip` ?쒓굅** ??Releases留?zip ?좎?
+- **루트에 exe·dll 직접 배치** — Code Download ZIP 압축 **1회** (중첩 zip 제거)
+- **`dist/`·루트 `VArchiveHelper-win.zip` 제거** — Releases만 zip 유지
 
 ### Added
 
-- **罹≪쿂 ?⑥텞???ъ슜??吏??* ???ㅼ젙 李쎌뿉??議고빀??吏?? `appsettings.json`??`CaptureHotkeyVirtualKey` / `CaptureHotkeyModifiers`
-- `CaptureHotkey.cs` ???⑥텞???쒖떆쨌寃利씲?RegisterHotKey` ?섏젙???뚮옒洹?- **?⑥텞??吏?????먮룞 ???* 諛?利됱떆 ?ロ궎 ?щ벑濡?- **紐⑤땲??肄ㅻ낫諛뺤뒪** ???댁긽???쒖떆 (`MonitorList.cs`)
-- **???寃利?* ??v-archive 寃쎈줈쨌紐⑤땲?걔룸떒異뺥궎, ?깅줉 ?ㅽ뙣 ??濡ㅻ갚
-- **?リ린 ??誘몄???寃쎄퀬** (???꾨땲??痍⑥냼)
-- **?⑥씪 ?몄뒪?댁뒪** (`SingleInstanceApp.cs`)
-- **鍮꾨룞湲?罹≪쿂** ??UI 硫덉땄 ?꾪솕 (`CapturePipeline.RunAsync`)
-- **泥??ㅽ뻾** ??`appsettings.example.json` ??`appsettings.json` ?먮룞 蹂듭궗
-- **v-archive 寃쎈줈 ?ㅼ젙 ?좊룄** ??泥??ㅽ뻾 ??`VArchivePathSetupForm`
-- **踰꾩쟾蹂?exe ?뚰겕?뚮줈** ??README, `scripts/build-release.ps1`, `releases-local/`
-- **DOWNLOAD.md** ??Releases 湲곗? exe ?덈궡
-- `ConfigVersion` ?ㅼ젙 ?꾨뱶 (?꾩옱 2)
+- **캡처 단축키 사용자 지정** — 설정 창에서 조합키 지정, `appsettings.json`의 `CaptureHotkeyVirtualKey` / `CaptureHotkeyModifiers`
+- `CaptureHotkey.cs` — 단축키 표시·검증·`RegisterHotKey` 수정자 플래그
+- **단축키 지정 시 자동 저장** 및 즉시 핫키 재등록
+- **모니터 콤보박스** — 해상도 표시 (`MonitorList.cs`)
+- **저장 검증** — v-archive 경로·모니터·단축키, 등록 실패 시 롤백
+- **닫기 전 미저장 경고** (예/아니오/취소)
+- **단일 인스턴스** (`SingleInstanceApp.cs`)
+- **비동기 캡처** — UI 멈춤 완화 (`CapturePipeline.RunAsync`)
+- **첫 실행** — `appsettings.example.json` → `appsettings.json` 자동 복사
+- **v-archive 경로 설정 유도** — 첫 실행 시 `VArchivePathSetupForm`
+- **버전별 exe 워크플로** — README, `scripts/build-release.ps1`, `releases-local/`
+- **DOWNLOAD.md** — Releases 기준 exe 안내
+- `ConfigVersion` 설정 필드 (현재 2)
 
 ### Changed
 
-- README: Releases zip留??ㅼ튂?? Source code zip? exe ?놁쓬 紐낆떆
-- `appsettings.example.json` 鍮뚮뱶 異쒕젰 蹂듭궗
-- **李??リ린 = ?꾨줈洹몃옩 醫낅즺** ???몃젅???꾩씠肄샕룸갚洹몃씪?대뱶 ?곸＜ ?쒓굅
-- ?⑥텞?ㅻ뒗 **?ㅼ젙 李쎌씠 ?대젮 ?덉쓣 ?뚮쭔** ?숈옉 (always-on-top ?놁쓬 ??寃뚯엫 ?곗꽑)
-- UI: ?⑥텞??以꾩뿉 **?곸슜 諛????* ?쒓굅(?섎떒 1媛?, 誘몄??????쒕ぉ??`*`
-- UI 臾멸뎄: Insert 怨좎젙 ?쒗쁽 ??罹≪쿂 ?⑥텞??/ 罹≪쿂 ?숈옉 ?ㅽ뻾
+- README: Releases zip만 설치용, Source code zip은 exe 없음 명시
+- `appsettings.example.json` 빌드 출력 복사
+- **창 닫기 = 프로그램 종료** — 트레이 아이콘·백그라운드 상주 제거
+- 단축키는 **설정 창이 열려 있을 때만** 동작 (always-on-top 없음 — 게임 우선)
+- UI: 단축키 줄에 **적용 및 저장** 제거(하단 1개), 미저장 시 제목에 `*`
+- UI 문구: Insert 고정 표현 → 캡처 단축키 / 캡처 동작 실행
 
 ### Removed
 
-- `NotifyIcon` ?몃젅??硫붾돱 諛?X ?대┃ ??`Hide()` ?숈옉
+- `NotifyIcon` 트레이 메뉴 및 X 클릭 시 `Hide()` 동작
 
 ---
 
-## [0.1.1 lite] ??2026-06-01
+## [0.1.1 lite] — 2026-06-01
 
-**?쒖떆 ?대쫫:** vArchiveHelper 0.1.1 (lite version)  
-**Git ?쒓렇:** `v0.1.1-lite`
+**표시 이름:** vArchiveHelper 0.1.1 (lite version)  
+**Git 태그:** `v0.1.1-lite`
 
 ### Changed
 
-- 罹≪쿂 **誘몃━蹂닿린 UI ?쒓굅** (?ㅼ젙 李쎈쭔 ?좎?) ??硫붾え由?룹긽二?遺??媛먯냼
-- Insert ??誘몃━蹂닿린 媛깆떊 罹≪쿂 ?쒓굅 (Insert??罹≪쿂 1?뚮쭔)
-- `CapturePreviewForm` ??`SettingsForm`?쇰줈 ?ш뎄??- `PreviewIntervalMs` ?ㅼ젙 ?쒓굅
+- 캡처 **미리보기 UI 제거** (설정 창만 유지) — 메모리·상주 부담 감소
+- Insert 후 미리보기 갱신 캡처 제거 (Insert당 캡처 1회만)
+- `CapturePreviewForm` → `SettingsForm`으로 재구성
+- `PreviewIntervalMs` 설정 제거
 
 ### Added
 
-- `AppBranding.cs` ?????쒖떆 ?대쫫 ?듭씪
-- `CHANGELOG.md` ??踰꾩쟾 ?대젰 ?뺣━
+- `AppBranding.cs` — 앱 표시 이름 통일
+- `CHANGELOG.md` — 버전 이력 정리
 
 ---
 
-## [0.1.1] ??2026 (full)
+## [0.1.1] — 2026 (full)
 
-**Git 而ㅻ컠:** `54e11f0` ???뚯뒪 怨듦컻 + DXGI ?덉젙?? 
-**?뱀쭠:** 誘몃━蹂닿린 李??ы븿 (?댄썑 lite?먯꽌 ?쒓굅??
+**Git 커밋:** `54e11f0` — 소스 공개 + DXGI 안정화  
+**특징:** 미리보기 창 포함 (이후 lite에서 제거됨)
 
 ### Added
 
-- VArchiveHelper ?꾩껜 ?뚯뒪 (WinForms, DXGI/GDI 罹≪쿂)
-- GitHub Actions: `v*` ?쒓렇 push ??`VArchiveHelper-win.zip` 鍮뚮뱶쨌Release ?낅줈??- `.gitignore` (媛쒖씤 `appsettings.json`, `bin/` ???쒖쇅)
+- VArchiveHelper 전체 소스 (WinForms, DXGI/GDI 캡처)
+- GitHub Actions: `v*` 태그 push 시 `VArchiveHelper-win.zip` 빌드·Release 업로드
+- `.gitignore` (개인 `appsettings.json`, `bin/` 등 제외)
 
 ### Fixed
 
-- DXGI Desktop Duplication 罹≪쿂 ?덉젙??(`RequireDxgiCapture` ??
+- DXGI Desktop Duplication 캡처 안정화 (`RequireDxgiCapture` 등)
 
 ---
 
-## [0.1.0] ??理쒖큹 怨듦컻
+## [0.1.0] — 최초 공개
 
-**Git 而ㅻ컠:** `42774c2` ??README + 諛고룷 zip
+**Git 커밋:** `42774c2` — README + 배포 zip
 
 ### Added
 
-- README ?ъ슜 ?덈궡
-- `VArchiveHelper-win.zip` 諛고룷 (?뚯뒪 ?놁쓬)
+- README 사용 안내
+- `VArchiveHelper-win.zip` 배포 (소스 없음)
 
 ---
 
 ## full vs lite
 
-| 援щ텇 | 誘몃━蹂닿린 | ?ㅼ젙 UI | 沅뚯옣 |
+| 구분 | 미리보기 | 설정 UI | 권장 |
 |------|----------|---------|------|
-| **0.1.1 full** | ?덉쓬 | 誘몃━蹂닿린 ?ㅻⅨ履??⑤꼸 | ??(怨쇨굅) |
-| **0.1.1 lite** | ?놁쓬 | ?ㅼ젙 ?꾩슜 李?| 硫붾え由?룰쾶??以??곸＜ |
+| **0.1.1 full** | 있음 | 미리보기 오른쪽 패널 | — (과거) |
+| **0.1.1 lite** | 없음 | 설정 전용 창 | 메모리·게임 중 상주 |

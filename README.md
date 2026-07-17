@@ -1,108 +1,112 @@
-﻿# vArchiveHelper 0.1.3
+# vArchiveHelper 0.1.3
 
-吏?뺥븳 ?⑥텞??湲곕낯 **Insert**)濡?紐⑤땲?곕? 吏???댁긽?꾨줈 罹≪쿂 ???대┰蹂대뱶 ??v-archive **紐⑤뱶1 ?몄떇(Alt+Insert)**.
+지정한 단축키(기본 **Insert**)로 모니터를 지정 해상도로 캡처 → 클립보드 → v-archive **모드1 인식(Alt+Insert)**.
 
-DJMAX ???꾩껜?붾㈃ 寃뚯엫??蹂댁“ ?꾧뎄?낅땲?? [v-archive](https://github.com/kokonohanahata/v-archive) ?꾩슂.
+DJMAX 등 전체화면 게임용 보조 도구입니다. [v-archive](https://github.com/kokonohanahata/v-archive) 필요.
 
-**?ㅼ튂 (exe):** [DOWNLOAD.md](DOWNLOAD.md) 쨌 [Releases](https://github.com/jinthek123/varhelper/releases)
+**설치 (exe):** [DOWNLOAD.md](DOWNLOAD.md) · [Releases](https://github.com/jinthek123/varhelper/releases)
 
 ---
 
-## ?ㅼ튂 (?쇰컲 ?ъ슜??
+## 설치 (일반 사용자)
 
-**?뺤텞? ??긽 ??踰덈쭔** ?硫??⑸땲??
+**압축은 항상 한 번만** 풀면 됩니다.
 
-| 諛쏅뒗 怨?| 諛⑸쾿 |
+| 받는 곳 | 방법 |
 |--------|------|
-| **Code ??Download ZIP** (`main`) | zip 1???댁젣 ??**`VArchiveHelper.exe`** (?뚯뒪 ?대뜑 ?놁쓬) |
-| [Releases](https://github.com/jinthek123/varhelper/releases) | **`VArchiveHelper-win.zip`** 1???댁젣 ??exe |
+| **Code → Download ZIP** (`main`) | zip 1회 해제 → **`VArchiveHelper.exe`** (소스 폴더 없음) |
+| [Releases](https://github.com/jinthek123/varhelper/releases) | **`VArchiveHelper-win.zip`** 1회 해제 → exe |
 
-1. ??諛⑹떇?쇰줈 諛쏄린 ???뺤텞 ?댁젣 **1??*
-2. `VArchiveHelper.exe` ?ㅽ뻾 ??v-archive 寃쎈줈 吏?????ㅼ젙 ???3. Windows 10/11 + .NET Framework 4.7.2 (蹂꾨룄 SDK 遺덊븘??
+1. 위 방식으로 받기 → 압축 해제 **1회**
+2. `VArchiveHelper.exe` 실행 → v-archive 경로 지정 → 설정 저장
+3. Windows 10/11 + .NET Framework 4.7.2 (별도 SDK 불필요)
 
-**二쇱쓽:** exe? dll??**媛숈? ?대뜑**???덉뼱???뺤긽 ?ㅽ뻾?⑸땲??
+**주의:** exe와 dll이 **같은 폴더**에 있어야 정상 실행됩니다.
 
 Releases: https://github.com/jinthek123/varhelper/releases/download/v0.1.3/VArchiveHelper-win.zip
 
 ---
 
-## v-archive ?ㅼ젙
+## v-archive 설정
 
-1. **罹≪쿂 / ?낅줈???곕줈 (紐⑤뱶 1)**
-2. ?몄떇 ?⑥텞?? **Alt+Insert**
-3. v-archive **紐⑤뱶 2**??Insert媛 ?⑥븘 ?덉쑝硫??ㅻⅨ ?ㅻ줈 蹂寃?(罹≪쿂 ?ㅼ? 異⑸룎 諛⑹?)
-
----
-
-## ?ъ슜 諛⑸쾿
-
-- **?ㅼ젙 李쎌씠 ?대젮 ?덉쓣 ?뚮쭔** 罹≪쿂 ?⑥텞?ㅺ? ?숈옉?⑸땲?? 李쎌쓣 ?レ쑝硫??꾨줈洹몃옩??醫낅즺?⑸땲??(?몃젅???곸＜ ?놁쓬).
-- 李쎌? **理쒖냼??*?????덉뒿?덈떎.
-- ?ㅼ젙 李쎌뿉??**罹≪쿂 ?⑥텞??*, **紐⑤땲??*, **?댁긽??*, **v-archive 寃쎈줈**, **?쇱씠???ㅽ겕 ?뚮쭏**瑜?諛붽? ???덉뒿?덈떎.
-- **?ъ슜 留ㅻ돱??* 踰꾪듉?쇰줈 ?덈궡瑜?蹂????덉뒿?덈떎.
-- ?⑥텞?ㅻ? 諛붽씀硫?**?먮룞 ???*?⑸땲?? 洹?????ぉ? **?곸슜 諛????*???꾨Ⅴ?몄슂.
-- ??ν븯吏 ?딄퀬 ?レ쑝???섎㈃ **寃쎄퀬**媛 ?섏샃?덈떎.
-
-**沅뚯옣 (?꾩껜?붾㈃):** ?ㅼ젙?먯꽌 **DXGI 罹≪쿂**쨌**臾쇰━ ?쎌?** 耳쒓린. 罹≪쿂 寃곌낵??`[DXGI]`媛 蹂댁씠硫?DXGI 寃쎈줈濡??숈옉 以묒엯?덈떎.
+1. **캡처 / 업로드 따로 (모드 1)**
+2. 인식 단축키: **Alt+Insert**
+3. v-archive **모드 2**에 Insert가 남아 있으면 다른 키로 변경 (캡처 키와 충돌 방지)
 
 ---
 
-## 0.1.3?먯꽌 ?щ씪吏???
-- **???꾩씠肄?* 異붽?
-- **?쇱씠???ㅽ겕 ?뚮쭏** (肄붾엫 ?≪꽱??UI)
-- **?ъ슜 留ㅻ돱??* ?앹뾽
-- ?ㅼ젙 李?**?ㅽ겕濡ㅒ룸젅?댁븘??* 媛쒖꽑 (?좊줈 媛믪씠 諛붾뚯? ?딆쓬)
-- **罹≪쿂 ?깅뒫**쨌硫붾え由?媛쒖꽑
+## 사용 방법
+
+- **설정 창이 열려 있을 때만** 캡처 단축키가 동작합니다. 창을 닫으면 프로그램이 종료됩니다 (트레이 상주 없음).
+- 창은 **최소화**할 수 있습니다.
+- 설정 창에서 **캡처 단축키**, **모니터**, **해상도**, **v-archive 경로**, **라이트/다크 테마**를 바꿀 수 있습니다.
+- **사용 매뉴얼** 버튼으로 안내를 볼 수 있습니다.
+- 단축키를 바꾸면 **자동 저장**됩니다. 그 외 항목은 **적용 및 저장**을 누르세요.
+- 저장하지 않고 닫으려 하면 **경고**가 나옵니다.
+
+**권장 (전체화면):** 설정에서 **DXGI 캡처**·**물리 픽셀** 켜기. 캡처 결과에 `[DXGI]`가 보이면 DXGI 경로로 동작 중입니다.
 
 ---
 
-## ?ㅼ젙 (`appsettings.json`)
+## 0.1.3에서 달라진 점
 
-exe? **媛숈? ?대뜑**??`appsettings.json` ?섎굹留??섏젙?섎㈃ ?⑸땲??
+- **앱 아이콘** 추가
+- **라이트/다크 테마** (코랄 액센트 UI)
+- **사용 매뉴얼** 팝업
+- 설정 창 **스크롤·레이아웃** 개선 (휠로 값이 바뀌지 않음)
+- **캡처 성능**·메모리 개선
 
-| ??ぉ | ?ㅻ챸 |
+---
+
+## 설정 (`appsettings.json`)
+
+exe와 **같은 폴더**의 `appsettings.json` 하나만 수정하면 됩니다.
+
+| 항목 | 설명 |
 |------|------|
-| ConfigVersion | ?ㅼ젙 ?뚯씪 踰꾩쟾 (?꾩옱 2) |
-| MonitorIndex | `0` = 1踰?紐⑤땲?? `1` = 2踰?紐⑤땲??(湲곕낯) |
-| VArchiveExePath | v-archive.exe ?꾩튂 (?ㅼ젙 李?**李얘린**濡?吏?? |
-| UiTheme | `Light` ?먮뒗 `Dark` |
-| CaptureHotkeyVirtualKey | 罹≪쿂 ?몃━嫄?VK (湲곕낯 45 = Insert) |
-| CaptureHotkeyModifiers | ?섏젙??鍮꾪듃 |
-| UseDxgiCapture / UsePhysicalPixels | ?꾩껜?붾㈃ 罹≪쿂 ??沅뚯옣 |
+| ConfigVersion | 설정 파일 버전 (현재 2) |
+| MonitorIndex | `0` = 1번 모니터, `1` = 2번 모니터 (기본) |
+| VArchiveExePath | v-archive.exe 위치 (설정 창 **찾기**로 지정) |
+| UiTheme | `Light` 또는 `Dark` |
+| CaptureHotkeyVirtualKey | 캡처 트리거 VK (기본 45 = Insert) |
+| CaptureHotkeyModifiers | 수정자 비트 |
+| UseDxgiCapture / UsePhysicalPixels | 전체화면 캡처 시 권장 |
 
 ---
 
-## 釉뚮옖移?(媛쒕컻)
+## 브랜치 (개발)
 
-| 釉뚮옖移?| ?⑸룄 |
+| 브랜치 | 용도 |
 |--------|------|
-| **`main`** | Code Download ZIP ??**exe쨌dll쨌?덈궡留?* |
-| **`source`** | ?뚯뒪쨌`scripts/`쨌Actions ??**?ш린??媛쒕컻** |
+| **`main`** | Code Download ZIP — **exe·dll·안내만** |
+| **`source`** | 소스·`scripts/`·Actions — **여기서 개발** |
 
-?먯꽭?? [DEVELOP.md](DEVELOP.md)
+자세히: [DEVELOP.md](DEVELOP.md)
 
 ```powershell
 .\scripts\build.ps1
-# ??VArchiveHelper\bin\Release\net472\VArchiveHelper.exe
+# → VArchiveHelper\bin\Release\net472\VArchiveHelper.exe
 
 .\scripts\build-release.ps1
-# ??releases-local\VArchiveHelper-v0.1.3.zip + (?좏깮) main 諛고룷
+# → releases-local\VArchiveHelper-v0.1.3.zip + (선택) main 배포
 ```
 
-### GitHub????踰꾩쟾 諛고룷
+### GitHub에 새 버전 배포
 
-1. `VArchiveHelper/` ?섏젙, [CHANGELOG.md](CHANGELOG.md) 媛깆떊
-2. `VArchiveHelper.csproj` ??`<Version>` ?щ━湲?3. `source` 而ㅻ컠쨌?몄떆
-4. `git tag v0.1.4` ??`git push origin v0.1.4`
-5. Actions媛 **?대떦 ?쒓렇 Release**??`VArchiveHelper-win.zip` ?낅줈??6. `.\scripts\build-release.ps1` 濡?`main` ?ㅼ튂蹂?諛섏쁺
+1. `VArchiveHelper/` 수정, [CHANGELOG.md](CHANGELOG.md) 갱신
+2. `VArchiveHelper.csproj` 의 `<Version>` 올리기
+3. `source` 커밋·푸시
+4. `git tag v0.1.4` → `git push origin v0.1.4`
+5. Actions가 **해당 태그 Release**에 `VArchiveHelper-win.zip` 업로드
+6. `.\scripts\build-release.ps1` 로 `main` 설치본 반영
 
-### Git ?쒓렇 (蹂?붿쓽 ?먮쫫)
+### Git 태그 (변화의 흐름)
 
-- `v0.1.1` ??full (誘몃━蹂닿린 ?ы븿, 怨쇨굅)
-- `v0.1.1-lite` ??lite
-- `v0.1.2` ???⑥텞?ㅒ톃X 媛쒖꽑
-- `v0.1.3` ??**?꾩옱 理쒖떊** (?뚮쭏쨌留ㅻ돱?셋톃I)
+- `v0.1.1` — full (미리보기 포함, 과거)
+- `v0.1.1-lite` — lite
+- `v0.1.2` — 단축키·UX 개선
+- `v0.1.3` — **현재 최신** (테마·매뉴얼·UI)
 
 ---
 
-**蹂寃??대젰:** [CHANGELOG.md](CHANGELOG.md)
+**변경 이력:** [CHANGELOG.md](CHANGELOG.md)
