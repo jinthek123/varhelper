@@ -1,0 +1,40 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+
+# NuGet
+packages/
+project.lock.json
+
+# Local config
+VArchiveHelper/appsettings.json
+
+# Release artifacts (scripts/build-release.ps1)
+releases-local/*.zip
+!releases-local/README.md
+
+# Main-branch install bundle (source 브랜치에는 없어야 함)
+/*.dll
+/*.exe
+/*.pdb
+/*.lnk
+/VArchiveHelper.exe.config
+/VArchiveHelper-win.zip
+/appsettings.json
+/appsettings.example.json
+
+# Decompile scratch (scripts/decompile.ps1)
+release-from-github/
+VArchiveHelper-decompiled/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
