@@ -1,5 +1,12 @@
-﻿# Local only
+﻿# Install-only branch
 *.lnk
 *.pdb
 Thumbs.db
 Desktop.ini
+VArchiveHelper/
+releases-local/
+scripts/
+.github/
+*.sln
+*.slnx
+DEVELOP.md
