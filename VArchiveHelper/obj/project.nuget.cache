@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "gnNxTqon7w0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fire2\\Desktop\\VArchiveHelper-win\\VArchiveHelper\\VArchiveHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\polysharp\\1.10.0\\polysharp.1.10.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\sharpgen.runtime\\2.0.0-beta.13\\sharpgen.runtime.2.0.0-beta.13.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\sharpgen.runtime.com\\2.0.0-beta.13\\sharpgen.runtime.com.2.0.0-beta.13.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\vortice.direct3d11\\2.4.2\\vortice.direct3d11.2.4.2.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\vortice.directx\\2.4.2\\vortice.directx.2.4.2.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\vortice.dxgi\\2.4.2\\vortice.dxgi.2.4.2.nupkg.sha512",
+    "C:\\Users\\fire2\\AppData\\Local\\Temp\\cursor-sandbox-cache\\0ce7471aeca1a0ac7213341215a9fa4d\\nuget\\vortice.mathematics\\1.4.25\\vortice.mathematics.1.4.25.nupkg.sha512"
+  ],
+  "logs": []
+}

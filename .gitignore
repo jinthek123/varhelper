@@ -1,0 +1,5 @@
+﻿# Local only
+*.lnk
+*.pdb
+Thumbs.db
+Desktop.ini
