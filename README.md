@@ -55,7 +55,7 @@ Releases: https://github.com/jinthek123/varhelper/releases/download/v0.1.3/VArch
 - **사용 매뉴얼** 팝업
 - 설정 창 **스크롤·레이아웃** 개선 (휠로 값이 바뀌지 않음)
 - **캡처 성능**·메모리 개선
-- 본 사이트에 사용된 게임 콘텐츠의 저작권은 NEOWIZ에 있습니다.
+- 본 프로그램에 사용된 게임 콘텐츠의 저작권은 NEOWIZ에 있습니다.
 
 ---
 
